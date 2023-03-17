@@ -270,14 +270,12 @@ namespace Oxide.Plugins
             [JsonProperty(PropertyName = "Normal Speed")]
             public string[] normal =
             {
-                "hammer",
                 "put item shortname here"
             };
 
-            [JsonProperty(PropertyName = "Blacklist")]
+            [JsonProperty(PropertyName = "Blocked items")]
             public string[] blocked =
             {
-                "rock",
                 "put item shortname here"
             };
 
